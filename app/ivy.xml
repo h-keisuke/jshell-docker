@@ -1,0 +1,13 @@
+<ivy-module version="1.0">
+  <info organisation="org"
+    module="standalone"
+    revision="working"
+  />
+  <dependencies>
+    <dependency org="org.eclipse.collections" name="eclipse-collections" rev="8.0.0"/>
+    <dependency org="org.eclipse.collections" name="eclipse-collections-api" rev="8.0.0"/>
+    <exclude type="source" ext="*" />
+    <exclude type="javadoc" ext="*" />
+  </dependencies>
+ 
+</ivy-module>
